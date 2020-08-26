@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    padding: 0 100px;
+    background-color:#8f8f8f;
+}
+.clearfix{
+    clear:both;
+}
+h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.menu .main{
+    padding: 20px;
+    float: left;
+}
+.menu .sidebar{
+    width: 25%;
+    background-color: #8f8f8f;
+}
+.menu ul{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.menu .background{
+    width: 75%;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 720px;
+    background-color: #333;
+    color:white;
+    
+   
+}
+footer a{
+    color:white;
+}
