@@ -4,43 +4,63 @@
     box-sizing: border-box;
 }
 .container{
-    width: 800px;
-    padding: 0 100px;
-    background-color:#8f8f8f;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.clearfix{
-    clear:both;
-}
-h2{
-    color: white;
-    background-color: black;
+h1{
+    width: 720px;
+    top:0;
+    background-color: #333;
+    position: fixed;
+    overflow: hidden;
     text-align: center;
-    padding: 20px;
+    color: white;
+   
 }
-.menu .main{
-    padding: 20px;
-    float: left;
+.menu{
+    font-size: 0;
+    padding:37px 0;
+    background-color: white;
+    display:block;
+    height: 1290px;
 }
 .menu .sidebar{
-    width: 25%;
-    background-color: #8f8f8f;
+    float: left;
+    background-color: #aaa;
+    width: 180px;
+    font-size: 16px;
+    vertical-align: top;
+    height: 1290px;
 }
-.menu ul{
-    padding-left: 30px;
-    margin-top: 10px;
+h2, p{
+    margin-inline-start: 14px;
+}
+
+.menu .sidebar ul{
+    margin-inline-start: 55px;
 }
 .menu .background{
-    width: 75%;
+    float: left;
+    width: 540px;
+    vertical-align: top;
+    background-color: white;
+    font-size: 16px;
+}
+.menu .background ul{
+    margin-inline-start: 60px;
+}
+hr{
+    margin: 16px;
 }
 footer{
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 720px;
-    background-color: #333;
     color:white;
-    
-   
+    background-color: #333;
 }
 footer a{
     color:white;
